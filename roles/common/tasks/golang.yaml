@@ -1,0 +1,7 @@
+- name: install golang
+  ansible.builtin.command: dnf install golang -y
+
+- name: Install dependencies
+  ansible.builtin.shell: go mod init dispatch ; go get ; go build
+  args:
+    chdir: /app    
