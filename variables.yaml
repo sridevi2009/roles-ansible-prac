@@ -1,3 +1,10 @@
 MONGODB_HOST: mongodb.gopisri.cloud
 REDIS_HOST: redis.gopisri.cloud
 CATALOGUE_HOST: catalogue.gopisri.cloud
+MYSQL_HOST: mysql.gopisri.cloud
+RABBITMQ_HOST: rabbitmq.gopisri.cloud
+USER_HOST: user.gopisri.cloud
+CART_HOST: cart.gopisri.cloud
+SHIPPING_HOST: shipping.gopisri.cloud
+PAYMENT_HOST: payment.gopisri.cloud
+DISPATCH_HOST: dispatch.gopisri.cloud
