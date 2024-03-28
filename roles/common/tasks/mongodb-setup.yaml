@@ -28,7 +28,7 @@
   ignore_errors: true
 
 - name: "load user data"
-  ansible.builtin.command: mongo --host mongodb.gopisri.cloud < /app/schema/{{component}}.js
+  ansible.builtin.command: "mongo --host mongodb.gopisri.cloud < /app/schema/{{component}}.js"
   when: users_count.stdout == "0" and component == "user" # keep in double quotes
   ignore_errors: true
 
