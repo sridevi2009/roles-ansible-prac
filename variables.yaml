@@ -1,1 +1,2 @@
 MONGODB_HOST: mongodb.gopisri.cloud
+REDIS_HOST: redis.gopisri.cloud
